@@ -1,0 +1,270 @@
+body {
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main{
+    width: auto;
+    height: auto;
+}
+.same{
+    list-style: none;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width:98vw;
+
+}
+.same span{
+    padding: 15px;
+}
+.nav2{
+    margin: 5px;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.nav2 div{
+    padding: 10px;
+}
+.nav2 div:hover{
+    color: #FF764D;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width: 970px) {
+    .same{
+        list-style: none;
+        display: flex;
+        padding: 5px;
+    }
+    .same span{
+        list-style: none;
+        display: none;
+    }
+    
+    .menu{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    image{
+        display: none;
+    }
+     .image2{
+        background-repeat: no-repeat;
+        height:5vh;
+        width: 50%;  
+        font-size: 16px;    
+        background-image: url(https://ableton-production.imgix.net/about/header.jpg);
+        background-size: 90%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 90vw;
+        margin-left:8.8vw;
+        
+        
+    
+    } 
+    .page-about__header__ableton-logo{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 215px;
+    height: 52px;
+    margin-left: -107px;
+    margin-top: -26px
+    }
+}
+.page-about__header__ableton-logo{
+    height: 105px;
+    margin-left: -10vh;
+    margin-top: 9vh;
+}
+.image{
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2.0&fit=crop&fm=jpg&h=1094&ixjsv=1.1.3&q=50&w=1333");
+    height: 85vh;
+    width: 70vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2vh;
+    text-align: center;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 15vw;
+}
+.second_part{
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+#para1{
+    
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 20px; 
+    font-weight: 600;
+}
+#para2{
+    
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 16px
+}
+.second_part #para1 span{
+    color: blue;
+    cursor: pointer;
+}
+.container{
+    width: auto;
+    height: auto;
+}
+.yellow{
+    height: 90vh;
+    width:inherit;
+    background-color: #FBFFA7;
+    margin-left: 40%;
+}
+.first_img{
+    background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg);
+    background-size: cover;
+    position: relative ;
+    position: relative;
+    position: relative;
+    height: 48vh;
+    width: 28vw;
+    left: 60%;
+    bottom: 65vh;
+} 
+.second_img{
+    background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg);
+    height: 74vh;
+    width: 39vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 130vh;
+    background-position: 50% 50%;
+    left: 7vw;
+} 
+@media screen and (max-width : 1024px) {
+     .second_img{
+        background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg);
+        height: 62vh;
+        height: 62vh;
+        width: 39vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        bottom: 77vh;
+        background-position: 50% 50%;
+        left: 7vw;
+    }
+    
+    .first_img{
+        background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg);       
+        background-size: cover;
+        position: absolute;
+        width: 33.3333vw;
+        height: 23vw;
+        left: 46vw;
+        bottom: -138vh;
+        margin-left: 10.33333vw;
+        
+    }     
+}
+@media screen and (max-width: 450px) {
+    
+    .yellow{
+        height: 40vh;
+        width:inherit;
+        background-color: #FBFFA7;
+        margin-left: 40%;
+    }
+    .first_img{
+        background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg);
+        background-size: cover;
+        position: relative;
+        width: 33.3333vw;
+        height: 25vw;
+        left: 46vw;
+        bottom: 30vh;
+        margin-left: 8.33333vw;
+        
+    }     
+    .second_img{
+       background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg);
+       height: 30vh;
+       width: 38vw;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative;
+       bottom: 54vh;
+
+       background-position: 50% 50%;
+       left: 7vw;
+    }
+}
+@media screen and (max-width: 375px ) {
+    
+    .yellow{
+        height: 40vh;
+        width:inherit;
+        background-color: #FBFFA7;
+        margin-left: 40%;
+    }
+    .nav2{
+        display: none;
+    }
+    .first_img{
+        background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg);
+        background-size: cover;
+        position: relative;
+        width: 33.3333vw;
+        height: 25vw;
+        left: 46vw;
+        bottom: 28vh;
+        margin-left: 8.33333vw;
+        
+    }
+     .second_img{
+        background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg);
+        height: 28vh;
+        width: 43vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        bottom: 48vh;
+        background-position: 50% 50%;
+        left: 7vw;
+     } 
+     #para1{
+    
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 20px; 
+        font-weight: 600;
+    }
+    #para2{
+        
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 10px
+    }
+}
