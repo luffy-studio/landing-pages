@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:wght@600& family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("img/backgroung.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: max( 1200px , 100vw);
+
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity:0.74;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    max-width: 77vw;
+    align-items: center;
+    height: 62px;
+
+}
+  nav img{
+    width: 188px;
+    position: relative;
+    z-index: 10;
+    padding-top: 23px;
+
+}
+nav button{
+    z-index: 10;
+    position: relative;
+}
+.conten{
+    font-family: 'Martel Sans' sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px   ;
+    text-align: center;
+
+}
+.conten> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+}
+.conten>:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.conten>:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.sepration{
+    height: 5px;
+    background-color: rgba(113, 111, 111, 0.57);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(246, 241, 241);
+    border-color: white;
+    border-radius: 3px;
+
+}
+.btn_red{ 
+    padding: 3PX 24px;
+    font-weight: bold;
+    background-color:red;
+    color: white;
+    border:none;
+    border-radius: 4px;
+    
+}
+.main input{
+    font-size: 19px;
+    padding: 10PX 48px;
+    font-weight: bold;
+    background-color: #4141412e;
+    color: white;
+    border-color:white;
+    border-radius: 4px;    
+}
+.btn_red_2{ 
+    padding: 14PX;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:red;
+    color: white;
+    border:none;
+    border-radius: 4px;
+}
+.first{
+    display: flex ;
+    justify-content: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.secimg{
+    /* display: flex; */
+    position: relative;
+}
+.secimg img{
+    width: 455px;
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+    
+
+    
+}
+.secimg video{
+    position: absolute;
+    top: 73px;
+    right: 20px;
+    max-width: 374px;;
+
+}
+.secimg-2{
+    /* display: flex; */
+    position: relative;
+}
+.secimg-2 img{
+    width: 455px;
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+    
+
+    
+}
+.secimg-2 video{
+    position: absolute;
+    top: 39px;
+    right: 79px;
+    max-width: 290px;
+
+}
+
+section.first > div{
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+
+
+    font-size: 24px;
+    
+}
+.faq{
+    background-color: black;
+    color: white;
+    
+}
+.faq h2{
+    padding: 34px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.faqbox:hover{
+    background-color:#414141;;
+}
+.faqbox{
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    justify-content: space-between;
+    padding: 24px;
+    margin: 14px auto;
+    max-width: 70vw ;
+    font-size: 24px;
+    cursor: pointer;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 23px;
+    justify-content: space-between;
+
+
+}
+.end > div input{
+    font-size: 19px;
+    padding: 10PX 48px;
+    font-weight: bold;
+    background-color: #4141412e;
+    color: white;
+    border-color:white;
+    border-radius: 4px; 
+    justify-content: space-between;
+    
+
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 65vw;
+    padding: 14PX;
+}
+footer .question{
+    padding-top: 34px;
+    padding-bottom: 22px ;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+    max-width: 65vw;
+    
+    
+}
+footer a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.footer_ITEM
+{
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+}
